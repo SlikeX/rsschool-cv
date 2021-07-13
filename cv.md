@@ -26,3 +26,22 @@ for (let i = a; i >= 1; i--){
 }
 }
 ```
+## Experience
+
+*
+
+## Education
+
+2016-2020
+* **Bachelor's degree:** *National University of Oil and Gas «Gubkin University»* 
+
+2020 (1 month)
+* [Ru Code Basic](https://ru.code-basics.com/)
+  * HTML
+  * CSS
+
+## English language
+
+**Level**: B2 (advanced)
+
+**Practice**: English speaking club in American Embassy in Tashkent
