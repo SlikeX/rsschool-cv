@@ -1,1 +1,0 @@
-https://SlikeX.github.io/rsschool-cv/cv
