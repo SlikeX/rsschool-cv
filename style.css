@@ -319,3 +319,11 @@ body{
     padding-right: 27px;
     
 }
+
+.left h3{
+    display: none;
+}
+
+.right h3{
+    display: none;
+}
