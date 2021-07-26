@@ -39,6 +39,7 @@ for (let i = a; i >= 1; i--){
 * [Ru Code Basic](https://ru.code-basics.com/)
   * HTML
   * CSS
+  *JS
 
 ## English language
 
