@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:'Ubuntu', sans-serif;
+}
+
+* a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background: linear-gradient(to right, #3522af, #9153c9 );
+}
+
+.wraper{
+    width: 800px;
+    background: #fff;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume{
+    display: flex;
+}
+
+.left{
+    background: #292b2f;
+    width: 300px;
+    padding: 0 20px;
+}
+
+.right{
+    width: calc(100% -300px);
+}
+
+.img_holder{
+    padding: 20px 20px;
+}
+
+.img_holder img{
+    width: 150px;
+    border-radius: 30px;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.head{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: #3525af;
+    text-align: right;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.head::before{
+    content: "";
+    position: absolute;
+    top:27px;
+    right: 0;
+    width: 45px;
+    height: 3px;
+    background: #3525af;
+}
+
+.left .icon{
+    font-size: 25px;
+    color: #9153c9;
+}
+
+.left .text{
+    color: #9153c9;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.cont_list .li_wrap{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.cont_list .li_wrap .icon{
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.cont_list .li_wrap .text{
+    width: calc(100%-60px);
+    word-break: break-word;
+    color: #fff;
+}
+
+.skills ul,
+.hobbies ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills .li_wrap,
+.hobbies .li_wrap{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .li_wrap{
+    background: #fff;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+    margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+    border: 4px solid #fff;
+}
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+    color: #fff;
+}
+
+.header{
+    position: relative;
+    background: #292b2f;
+    padding: 15px 30px;
+    color: #fff;
+    height: 240px;
+}
+
+.name{
+    position: absolute;
+    top:0px;
+    left:300px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3525af;
+}
+
+.role{
+    display: none;
+    position: absolute;
+    top:0px;
+    left:300px;
+}
+
+.about{
+    display: none;
+    position: absolute;
+    top:0px;
+    left:300px;
+}
