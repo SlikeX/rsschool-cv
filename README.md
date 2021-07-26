@@ -1,1 +1,1 @@
-https://SlikeX.github.io/rsschool-cv/cv
+https://SlikeX.github.io/rsschool-cv/
