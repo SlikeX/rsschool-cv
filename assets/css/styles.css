@@ -1,10 +1,10 @@
- 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
- 
+
 :root {
   --header-height: 3rem;
- 
+
   --title-color: #0B0A0A;
   --text-color: #403A3A;
   --text-color-light: #707070;
@@ -12,7 +12,7 @@
   --container-color-alt: #F0EFEF;
   --body-color: #FCFCFC;
 
-   
+
   --body-font: 'Poppins', sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -21,21 +21,21 @@
   --small-font-size: .875rem;
   --smaller-font-size: .813rem;
 
-  
+
   --font-medium: 500;
   --font-semi-bold: 600;
 
- 
+
   --mb-1: .5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
 
- 
+
   --z-tooltip: 10;
   --z-fixed: 100;
 }
 
- 
+
 *,::before,::after{
   box-sizing: border-box;
 }
@@ -44,7 +44,7 @@ html{
   scroll-behavior: smooth;
 }
 
- 
+
 body.dark-theme{
   --title-color: #f2f2f2;
   --text-color: #bfbfbf;
@@ -53,7 +53,7 @@ body.dark-theme{
   --body-color: #2b2b2b;
 }
 
- 
+
 
 .change-theme{
   position: absolute;
@@ -68,7 +68,7 @@ body.dark-theme{
 .change-theme:hover{
   color: var(--title-color);
 }
- 
+
 
 body{
   margin: 0 0 var(--header-height) 0;
@@ -101,7 +101,7 @@ img{
   max-width: 100%;
   height: auto;
 }
- 
+
 .section{
   padding: 1.5rem 0;
 }
@@ -116,7 +116,7 @@ img{
   margin-bottom: var(--mb-3);
 }
 
- 
+
 
 .bd-container{
   max-width: 968px;
@@ -141,7 +141,7 @@ img{
   transition: .3s;
 }
 
- 
+
 .nav{
   height: var(--header-height);
   display: flex;
@@ -201,17 +201,17 @@ img{
   font-size: 1.2rem;
   margin-bottom: var(--mb-1);
 }
- 
+
 
 .show-menu{
   bottom: var(--header-height);
 }
- 
+
   .active-link{
     color: var(--title-color);
   }
 
- 
+
 .home{
   position: relative;
 }
@@ -256,7 +256,7 @@ img{
   margin-right: .25rem;
 }
 
- 
+
 .social__container{
   grid-template-columns: max-content;
   gap: 1rem;
@@ -278,12 +278,12 @@ img{
   margin-right: .25rem;
 }
 
- 
+
 .profile__description{
   text-align: center;
 }
 
- 
+
 .education__content{
   display: flex;
 }
@@ -326,7 +326,7 @@ img{
 .education__year{
   font-size: var(--smaller-font-size);
 }
- 
+
 .skills__content,
 .languages__content{
   grid-template-columns: repeat(2,1fr);
@@ -336,7 +336,6 @@ img{
 .languages__name{
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-3);
 }
 
 .skills_circle,
@@ -348,7 +347,7 @@ img{
   border-radius: 50%;
   margin-right: .75rem;
 }
- 
+
 .interests__container{
 grid-template-columns: repeat(3,1fr);
 margin-top: var(--mb-2);
@@ -358,6 +357,8 @@ margin-top: var(--mb-2);
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
 }
 
 .interests__icon{
@@ -366,7 +367,20 @@ margin-top: var(--mb-2);
   margin-bottom: .25rem;
 }
 
- 
+.interests__text{
+  text-align: center;
+}
+
+.interests__img{
+  width: 50px;
+  height: 50px;
+}
+
+.interests__img__ex{
+  width: 150px;
+  height: 50px;
+}
+
 .scrolltop{
   position: fixed;
   right: 1rem;
@@ -391,7 +405,7 @@ margin-top: var(--mb-2);
   visibility: visible;
   bottom: 5rem;
 }
- 
+
 @media screen and (max-width: 320px) {
   .nav__list{
     grid-template-columns: repeat(2,1fr);
@@ -408,7 +422,7 @@ margin-top: var(--mb-2);
     display: none;
   }
 }
- 
+
 @media screen and (min-width: 968px){
   body{
     margin: 3rem 0;
@@ -467,7 +481,7 @@ margin-top: var(--mb-2);
   align-items: center;
   background: #292b2f;
   color: #fff;
-  
+
 }
 
 .footer_logo{
@@ -482,13 +496,13 @@ margin-top: var(--mb-2);
 }
 
 .footer_year{
-  
+
   background: #292b2f;
   padding-bottom: 15px;
   text-align: center;
   color: #fff;
   padding-right: 27px;
-  
+
 }
 
 .footer_git a{
